@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Ortak tema ayarları -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+    </style>
+
+    <!-- EditText stili -->
+    <style name="TextInputStyle">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/rectangle_5</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:fontFamily">@font/lato_light</item>
+    </style>
+
+    <!-- Button stili -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- TextView stili -->
+    <style name="TextViewStyle">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/rectangle_5_2</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>
