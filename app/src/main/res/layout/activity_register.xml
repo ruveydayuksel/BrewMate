@@ -57,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText"
+        android:id="@+id/registerEmailLayout"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:background="@drawable/rectangle_5"
@@ -71,7 +71,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fullName" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editText3"
         android:layout_width="330dp"
         android:layout_height="50dp"
@@ -84,9 +84,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/registerEmailLayout" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editText2"
         android:layout_width="330dp"
         android:layout_height="50dp"
